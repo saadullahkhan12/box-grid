@@ -1,0 +1,14 @@
+.box{
+    border: 1px solid rgb(175, 169, 169);
+    padding: px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 3px;
+
+}
+h2{
+   text-align: center;
+}
